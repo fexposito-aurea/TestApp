@@ -1,1 +1,9 @@
 language: java
+
+branches:
+  only:
+  - master
+  - develop
+  - release
+  - hotfix
+  - /^feature\/.*$/
